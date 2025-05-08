@@ -53,11 +53,8 @@ src/
 └── index.css         # Global styles
 \`\`\`
 
-## Screenshots
-(Add screenshots of your application here)
-
 ## Deployment
-The application is deployed on [Vercel/Netlify/GitHub Pages] and can be accessed at [your-deployment-url].
+The application is deployed on Netlify and can be accessed at https://health-tracker-ramneek.netlify.app/ .
 
 ## Future Enhancements
 - Integration with real fitness APIs
