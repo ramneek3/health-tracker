@@ -1,12 +1,70 @@
-# React + Vite
+# FitTrack - Fitness Tracking Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+FitTrack is a comprehensive fitness tracking application built with React.js that allows users to track their workouts, nutrition, and fitness goals. The application provides a user-friendly interface for managing fitness activities and monitoring progress.
 
-Currently, two official plugins are available:
+## Features
+- **Dashboard**: Overview of fitness activities and progress
+- **Workout Tracker**: Log and monitor workout sessions
+- **Nutrition Tracker**: Track meals and nutritional intake
+- **Goal Setting**: Set and track fitness goals
+- **Responsive Design**: Mobile and desktop friendly interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React.js**: Functional components with hooks
+- **React Router**: For multi-page navigation
+- **Context API**: For state management
+- **Tailwind CSS**: For styling
+- **Chart.js**: For data visualization
+- **React Icons**: For UI icons
+- **Mock API**: Using JSONPlaceholder for data
 
-## Expanding the ESLint configuration
+## Setup Instructions
+1. Clone the repository
+\`\`\`
+git clone https://github.com/yourusername/fitness-tracker.git
+\`\`\`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Navigate to the project directory
+\`\`\`
+cd fitness-tracker
+\`\`\`
+
+3. Install dependencies
+\`\`\`
+npm install
+\`\`\`
+
+4. Start the development server
+\`\`\`
+npm start
+\`\`\`
+
+5. Open your browser and navigate to `http://localhost:3000`
+
+## Project Structure
+\`\`\`
+src/
+├── components/       # Reusable UI components
+├── contexts/         # React Context for state management
+├── pages/            # Page components
+├── App.jsx           # Main application component
+├── index.jsx         # Entry point
+└── index.css         # Global styles
+\`\`\`
+
+## Screenshots
+(Add screenshots of your application here)
+
+## Deployment
+The application is deployed on [Vercel/Netlify/GitHub Pages] and can be accessed at [your-deployment-url].
+
+## Future Enhancements
+- Integration with real fitness APIs
+- Social sharing features
+- Workout plan recommendations
+- Progress analytics and reports
+- Mobile app version
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
